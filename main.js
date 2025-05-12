@@ -63,7 +63,7 @@ if (loginForm) {
 let username = localStorage.getItem("username")
 let isLoggedIn = localStorage.getItem("isLoggedIn")
 
-if (isLoggedIn == "null" || username == "null") {
+if (isLoggedIn === "True" || !username) {
     window.location.href = "login.html"
     console.log(username)
     console.log(isLoggedIn)
