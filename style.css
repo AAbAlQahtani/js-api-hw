@@ -1,0 +1,14 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.card-img-top {
+  height: 14rem;
+  object-fit: contain;
+}
+
+.card-title {
+  font-size: 1rem;
+  height: 3rem;
+  overflow: hidden;
+}
